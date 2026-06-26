@@ -53,14 +53,29 @@ ctl.lp10_direct -> type hw, card 0
 No `plug`, `dmix`, `softvol`, `route`, `rate`, DSP, gain, or software-volume
 PCM is defined by the generated config.
 
-## Usage
+## Installation
 
-Copy the script to the LP10:
+Installation requires SSH access to the LP10 as `root`. You need the known root
+password for the target LP10 device.
+
+From your computer, copy the script to the LP10 and make it executable:
 
 ```sh
 scp lp10-force-direct-audio.sh root@LP10_IP:/opt/lp10-force-direct-audio.sh
 ssh root@LP10_IP chmod 700 /opt/lp10-force-direct-audio.sh
 ```
+
+Replace `LP10_IP` with the IP address of the LP10. When prompted, enter the
+known LP10 root password.
+
+Example:
+
+```sh
+scp lp10-force-direct-audio.sh root@192.168.178.74:/opt/lp10-force-direct-audio.sh
+ssh root@192.168.178.74 chmod 700 /opt/lp10-force-direct-audio.sh
+```
+
+## Usage
 
 Force direct mode:
 
