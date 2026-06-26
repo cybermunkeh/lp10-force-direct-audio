@@ -1,6 +1,6 @@
-# LP10 Force Direct Audio
+<p align="center"><img src="assets/cyber-global-guardian-banner-v1.png" alt="Globale Vernetzung unter Schutz eines heraldischen Adlers" width="100%"></p>
 
-![LP10 Force Direct Audio](assets/hero-audio-gateway.png)
+# LP10 Force Direct Audio
 
 ## Effort
 
