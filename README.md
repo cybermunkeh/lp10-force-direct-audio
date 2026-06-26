@@ -1,5 +1,7 @@
 # LP10 Force Direct Audio
 
+![LP10 Force Direct Audio](assets/hero-audio-gateway.png)
+
 ## Effort
 
 This effort provides a small standalone LP10 helper script that forces a
